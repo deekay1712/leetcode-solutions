@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=53 lang=java
- *
- * [53] Maximum Subarray
- */
-
-// @lc code=start
 class Solution {
     public int maxSubArray(int[] nums) {
         int currSum=0, maxSum=Integer.MIN_VALUE;
@@ -22,5 +15,3 @@ class Solution {
         return maxSum;
     }
 }
-// @lc code=end
-

@@ -1,13 +1,5 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
-/*
- * @lc app=leetcode id=1 lang=java
- *
- * [1] Two Sum
- */
-
-// @lc code=start
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -23,5 +15,3 @@ class Solution {
         return new int[]{};
     }
 }
-// @lc code=end
-
