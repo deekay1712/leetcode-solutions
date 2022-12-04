@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=875 lang=java
- *
- * [875] Koko Eating Bananas
- */
-
-// @lc code=start
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         int low = 1;
@@ -28,5 +21,3 @@ class Solution {
         return time <= h;
     }
 }
-// @lc code=end
-

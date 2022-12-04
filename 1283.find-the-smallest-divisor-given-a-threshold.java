@@ -21,4 +21,3 @@ class Solution {
         return sum <= threshold;
     }
 }
-
